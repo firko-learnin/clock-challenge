@@ -27,9 +27,9 @@ hourHand.style.transform = `rotate(${hourRotate}deg)`;
 
 //moving second hand on 6deg every second
 setInterval (function() {
-rotation += 0.6;
+rotation += 0.06;
 hand.style.transform = `rotate(${rotation}deg)`;
-}, 100)
+}, 10)
 
 //move minute hand
 setInterval (function() {

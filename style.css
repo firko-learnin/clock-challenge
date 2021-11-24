@@ -33,7 +33,7 @@ img {
   position: absolute;
   height: 120px;
   width: 10px;
-  border-top: 140px solid grey;
+  border-top: 140px solid black;
   z-index: 2;
   border-radius: 50%;
 }
